@@ -67,6 +67,41 @@ Provides detailed analysis through drill-through functionality for individual ca
 - Decomposition Tree for cost-driver exploration.
 - Page navigation for a structured reporting experience.
 
+ ## Key DAX Measures
+
+The dashboard uses DAX measures to calculate key performance indicators and support dynamic analysis.
+
+**1. Total Patients**
+```DAX
+Total Patients =
+DISTINCTCOUNT('Patient Data'[Patient ID])
+```
+
+**2. Positive Biopsy Rate**
+```DAX
+Positive Biopsy % =
+DIVIDE([Positive Biopsies], [Total Patients], 0)
+```
+
+**3. Average Treatment Cost**
+```DAX
+Average Treatment Cost =
+AVERAGE('Patient Data'[Treatment Cost (INR)])
+```
+
+**4. Treatment Cost Rank**
+```DAX
+Treatment Cost Rank =
+RANKX(
+    ALLSELECTED('Patient Data'[Diagnosis]),
+    [Average Treatment Cost],
+    ,
+    DESC,
+    DENSE
+)
+```
+These measures support dynamic KPI reporting, percentage calculations, and comparative treatment cost analysis.
+
 ## Key Findings
 - The dataset contains 1,500 synthetic patient records.
 - Positive biopsy results account for 65.73% of records.

@@ -1,6 +1,5 @@
 # Healthcare-Cancer-Analytics-PowerBI
 
-# Healthcare & Cancer Analytics Dashboard | Power BI
 
 ## Project Overview
 Developed an interactive Healthcare & Cancer Analytics Dashboard using Power BI to explore patient demographics, cancer types, diagnosis stages, biopsy results, treatment patterns, and treatment costs.

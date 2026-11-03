@@ -109,6 +109,16 @@ These measures support dynamic KPI reporting, percentage calculations, and compa
 - Treatment costs can be compared across cancer types and treatment categories.
 - Interactive filtering allows exploration of patterns across diagnosis years and patient groups.
 
+ ## Business Insights
+
+- Positive biopsy results represent 65.73% of the synthetic patient records.
+- Chemotherapy is the most common treatment category in the dataset.
+- Pancreatic Cancer has the highest average treatment cost in the overall dataset.
+- Treatment cost patterns vary across cancer types and treatment categories.
+- Interactive filtering enables users to explore differences across diagnosis years and patient groups.
+
+These observations are descriptive findings from the synthetic dataset and should not be interpreted as real-world clinical trends.
+
 ## Project Limitations
 - The dataset is synthetic and intended for learning and demonstration.
 - Observed patterns should not be interpreted as real-world clinical findings.

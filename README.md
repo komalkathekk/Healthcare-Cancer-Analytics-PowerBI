@@ -5,6 +5,20 @@
 Developed an interactive Healthcare & Cancer Analytics Dashboard using Power BI to explore patient demographics, cancer types, diagnosis stages, biopsy results, treatment patterns, and treatment costs.
 
 The project demonstrates how data analytics and visualization can support exploratory analysis and healthcare reporting.
+## Dashboard Preview
+
+### 1. Patient Overview
+![Patient Overview](Patient_Overview.png)
+
+### 2. Diagnosis & Treatment Analysis
+![Diagnosis and Treatment](Diagnosis_Treatment.png)
+
+### 3. Treatment Cost Analysis
+![Treatment Cost Analysis](Treatment_Cost_Analysis.png)
+
+### 4. Cost Drivers & Exploration
+![Cost Drivers](Cost_Drivers.png)
+
 
 ## Business Objectives
 - Analyze patient demographics and cancer-type distribution.
